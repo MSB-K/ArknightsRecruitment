@@ -242,9 +242,9 @@ class Loader {
         public var serv: Service? = null
 
 
-        private const val versionUrl = "https://raw.githubusercontent.com/jge4786/ArknightsRecruitment/main/app/src/main/assets/Versions.json"
-        private const val opUrl = "https://raw.githubusercontent.com/jge4786/ArknightsRecruitment/main/app/src/main/assets/"
-        private const val correctionUrl = "https://raw.githubusercontent.com/jge4786/ArknightsRecruitment/main/app/src/main/assets/correction.json"
+        private const val versionUrl = "https://raw.githubusercontent.com/MSB-K/ArknightsRecruitment/main/app/src/main/assets/Versions.json"
+        private const val opUrl = "https://raw.githubusercontent.com/MSB-K/ArknightsRecruitment/main/app/src/main/assets/"
+        private const val correctionUrl = "https://raw.githubusercontent.com/MSB-K/ArknightsRecruitment/main/app/src/main/assets/correction.json"
         @Throws(IOException::class)
         fun getVersionData(): JSONObject {
             val url = URL(versionUrl)
